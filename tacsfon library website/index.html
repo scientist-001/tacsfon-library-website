@@ -1,0 +1,182 @@
+<html>
+    <html lang="en">
+  <head>
+    <!--the meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!--for css... the style,font and  links-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+
+    <link rel="stylesheet" type="text/css" media="print,handheld"href="foo.css">
+    <link rel="stylesheet" type="text/css" media="print,handheld"href="all.css">
+    <link rel="javascript" href="javascript.js">
+
+    <!--for the logo-->
+    <link rel="logo" href="TACSFON LOGO.png">
+  </head>
+
+  <!--the body of the code and the executions-->
+  <body>
+
+<!-- this is the date and time format clock-->
+    DATE: <span id="txt2"></span> 
+<b>
+    <script>  
+      var date=new Date();  
+      var day=date.getDate();  
+      var month=date.getMonth()+1;  
+      var year=date.getFullYear();  
+      document.write(""+day+"/"+month+"/"+year);
+      </script>  </b>
+          
+TIME:   <b> <span id="txt"></span>  </b> 
+    <script>  
+    window.onload=function(){getTime();}  
+    function getTime(){  
+    var today=new Date();  
+    var h=today.getHours();  
+    var m=today.getMinutes();  
+    var s=today.getSeconds();  
+    // add a zero in front of numbers<10  
+    m=checkTime(m);  
+    s=checkTime(s);  
+    document.getElementById('txt').innerHTML=h+":"+m+":"+s;  
+    setTimeout(function(){getTime()},1000);  
+    }  
+    //setInterval("getTime()",1000);//another way  
+    function checkTime(i){  
+    if (i<10){  
+      i="0" + i;  
+     }  
+    return i;  
+    }  
+    </script>  
+
+<!--header of the website that consist of several functions-->
+  <header>
+    <div id="branding">
+     <img src="TACSFON LIBRARY\tacsfon.png" width="80px">
+     <style>
+       img{ float:left;
+      padding-top: 10px;
+    padding-left: 5px;}
+     </style>
+     <center><h1><span class="highlight">TACSFON LASU</span> LIBRARY CATALOGUE</h1></center> 
+
+     <div class="menu-bar">
+      <ul>
+        <li class="active"><a href="#"> Home <i class="fa fa-home" aria-hidden="true"></i></a> 
+          <div class="sub-menu-1">
+          <ul>
+          <li class="hover-me"><a href="index.html"> HOMEPAGE<i class="fa fa-arrow-right" aria-hidden="true"></i></li> </a>
+              <li><a href="about.html"> MISSION/VISION </a></li>
+              <li><a href="home.html"> REGISTRATION </a></li>
+     </ul> 
+       </div>
+    </li> 
+        <li> <a href="about.html"> about<i class="fa fa-user"></i> </a></li>
+        <li> <a href="#"> catalogue </i></a>
+          <div class="sub-menu-1">
+            <ul>
+            <li class="hover-me"><a href="Pastquestions.html">Pastquestions <i class="fa fa-arrow-right" aria-hidden="true"></i></li> </a>
+                <li><a href="Books.html"> Books </a></li>
+               <li><a href="Audio visuals.html"> Audio Visuals </a></li>
+       </ul> 
+         </div>
+      </li> 
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </div></div>
+  </header>
+
+<br>
+
+<p></p>
+
+<center><b><div id="div1">HOMEPAGE</div></center></b> 
+
+<br>
+
+<section id="div2">
+  <div class="greetings"> WELCOME SCHOLAR!!!</div>
+<img class="buttom" src="home images\website2.jpeg">
+<img class="top" src="home images\website4.jpeg">
+</section>
+
+<marquee width="100%" behavior="alternate"><strong>NOTE: </strong>pls click on the Home and proceed for your registration</marquee>
+
+<div class="container"> 
+  <h1>WELCOME TO THE LIBRARY UNIT</h1>  
+  <p>A CENTER FOR LEARNING...</p>
+</div>
+
+<br>
+
+<center><b><div id="div3">WHAT WE RENDER ?</div></center></b> 
+<style>
+  #div3{
+   margin-top: 150px;
+   color: #FFF;
+   font-size: 25px;
+   text-shadow: 0px 1px 3px black;
+   text-align: center;
+  }
+</style>
+
+   <div class="wrapper">
+     <h1>OUR TEAM HEADS</h1>
+ 
+     <div class="team">
+
+      <div class="team_member">
+        <div class="team_img">
+          <img class="library" src="TACSFON LIBRARY\20220721_111041.png">
+        </div>
+         <h3>AIYEDOGBON SAMUEL KEHINDE</h3>
+         <p class="role">LIBRARY SECRETARY</p>
+         <p> The library is part of the in education and learning skills...i welcome you all to this great unit</p>
+</div>
+       
+       <div class="team_member">
+        <div class="team_img" width="100px">
+          <img src="TACSFON LIBRARY\presido.png">
+        </div>
+         <h3>OLALOKUN BARNABAS</h3>
+         <p class="role">PRESIDENT(TACSFON-LASU)</p>
+         <p> TACSFON LASU LIBRARY is a well developed library that is accredited by TACSFON LASU, we help students grow spiritually and academically, we ensure
+           all make use of the library Day by Day...GOD BLESS YOU </p>
+         </div>
+     
+       <div class="team_member">
+        <div class="team_img">
+          <img src="TACSFON LIBRARY\tacsfon.png" width="60px">
+        </div>
+         <h3>TACSFON LASU EXECUTIVES</h3>
+         <p class="role">EXECUTIVES</p>
+         <p> This library website to to helps students promote ther learning and skills in other to achives their desired Goals and Aims.</p>
+      </div>
+
+      </div>
+   </div>
+<center><img class="image"src="logo links.png" width="10%" padding="10px"></center>
+<style>
+  image{
+    float:center;
+  }
+</style>
+
+</body></html>

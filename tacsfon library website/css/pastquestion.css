@@ -1,0 +1,226 @@
+  /*TRANSITION AND TRANSLATION FOR PASTQUESTIONS*/
+.card1{
+    -webkit-animation-name: fadeInRightBig;
+    animation-name:fadeInRightBig ;
+             -webkit-animation-duration: 2s;
+             animation-duration: 2s;
+             -webkit-animation-fill-mode: both;
+             animation-fill-mode: both;
+          }
+          @-webkit-keyframes fadeInRightBig {
+             0% {
+                opacity: 0;
+                -webkit-transform: translateX(2000px);
+             }
+             100% {
+                opacity: 1;
+                -webkit-transform: translateX(0);
+             }
+          }
+          @keyframes fadeInRightBig {
+             0% {
+                opacity: 0;
+                transform: translateX(2000px);
+             }
+             100% {
+                opacity: 1;
+                transform: translateX(0);
+             }
+          }
+          .fadeInRightBig {
+             -webkit-animation-name: fadeInRightBig;
+             animation-name: fadeInRightBig;
+          }
+
+          .card2{
+            -webkit-animation-name: fadeInleft;
+            animation-name: fadeInleft ;
+                     -webkit-animation-duration: 4s;
+                     animation-duration: 4s;
+                     -webkit-animation-fill-mode: both;
+                     animation-fill-mode: both;
+                  }
+                  @-webkit-keyframes fadeInleft {
+                     0% {
+                        opacity: 0;
+                        -webkit-transform: translateX(-2000px);
+                     }
+                     100% {
+                        opacity: 1;
+                        -webkit-transform: translateX(0);
+                     }
+                  }
+                  @keyframes fadeInleft {
+                     0% {
+                        opacity: 0;
+                        transform: translateX(-2000px);
+                     }
+                     100% {
+                        opacity: 1;
+                        transform: translateX(0);
+                     }
+                  }
+                  .fadeInRightBig {
+                     -webkit-animation-name: fadeInRightBig;
+                     animation-name: fadeInRightBig;
+                  }
+        
+                  .card3{
+                    -webkit-animation-name: fadeInRightBig;
+                    animation-name: fadeInRightBig ;
+                             -webkit-animation-duration: 2s;
+                             animation-duration: 2s;
+                             -webkit-animation-fill-mode: both;
+                             animation-fill-mode: both;
+                          }
+                          @-webkit-keyframes fadeInRightBig {
+                             0% {
+                                opacity: 0;
+                                -webkit-transform: translateX(2000px);
+                             }
+                             100% {
+                                opacity: 1;
+                                -webkit-transform: translateX(0);
+                             }
+                          }
+                          @keyframes fadeInRightBig {
+                             0% {
+                                opacity: 0;
+                                transform: translateX(2000px);
+                             }
+                             100% {
+                                opacity: 1;
+                                transform: translateX(0);
+                             }
+                          }
+                          .fadeInRightBig {
+                             -webkit-animation-name: fadeInRightBig;
+                             animation-name: fadeInRightBig;
+                          }
+                
+                          .card4{
+                            -webkit-animation-name: fadeInleft;
+                            animation-name:fadeInleft ;
+                                     -webkit-animation-duration: 4s;
+                                     animation-duration: 4s;
+                                     -webkit-animation-fill-mode: both;
+                                     animation-fill-mode: both;
+                                  }
+                                  @-webkit-keyframes fadeInleft{
+                                     0% {
+                                        opacity: 0;
+                                        -webkit-transform: translateX(-2000px);
+                                     }
+                                     100% {
+                                        opacity: 1;
+                                        -webkit-transform: translateX(0);
+                                     }
+                                  }
+                                  @keyframes fadeInleft {
+                                     0% {
+                                        opacity: 0;
+                                        transform: translateX(-2000px);
+                                     }
+                                     100% {
+                                        opacity: 1;
+                                        transform: translateX(0);
+                                     }
+                                  }
+                                  .fadeInRightBig {
+                                     -webkit-animation-name: fadeInRightBig;
+                                     animation-name: fadeInRightBig;
+                                  }
+                        
+                                  .card5{
+                                    -webkit-animation-name: fadeInRightBig;
+                                    animation-name:fadeInRightBig ;
+                                             -webkit-animation-duration: 4s;
+                                             animation-duration: 4s;
+                                             -webkit-animation-fill-mode: both;
+                                             animation-fill-mode: both;
+                                          }
+                                          @-webkit-keyframes fadeInRightBig {
+                                             0% {
+                                                opacity: 0;
+                                                -webkit-transform: translateX(2000px);
+                                             }
+                                             100% {
+                                                opacity: 1;
+                                                -webkit-transform: translateX(0);
+                                             }
+                                          }
+                                          @keyframes fadeInRightBig {
+                                             0% {
+                                                opacity: 0;
+                                                transform: translateX(2000px);
+                                             }
+                                             100% {
+                                                opacity: 1;
+                                                transform: translateX(0);
+                                             }
+                                          }
+                                          .fadeInRightBig {
+                                             -webkit-animation-name: fadeInRightBig;
+                                             animation-name: fadeInRightBig;
+                                          }
+        /*buton effects and translation*/                         
+  .button{
+      color: floralwhite;
+      background-color:#e24c23;
+      box-shadow: 0px 9px #999;
+      text-decoration: none;
+      outline: none;
+      display:inline-block;
+      padding: 10px 15px;
+      font-size: 20px;
+      cursor: center;
+      border-radius:17px;
+  }  
+  .button:hover{ background-color: #000dff; transition: 0.3s;}
+  .button:active{
+      background-color:#000000;
+      box-shadow: 0 5px #666;
+      transform:translateY(4px);
+  }
+                      
+  /* for the search bar */
+  .container{
+     background-image: linear-gradient(rgba(0,8,51,0,9));
+     background-size: cover;
+background-position: center;
+display: inline;
+align-items:center;
+justify-content: center;
+  }
+  .search-bar{
+     width:100%;
+     max-width:500px;
+display:inline;
+align-items: center;
+border-radius:60px;
+padding: 10px 10px;
+backdrop-filter: blur(10px) saturate(180%);
+   }
+.search-bar input{
+flex:1;
+border-radius: 60px;;
+outline: none;
+padding: 10px 10px;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+color: #e24c23;
+}
+::placeholder{
+   color:#e24c23;
+}
+.search-bar button img{
+   width:20px;
+}
+.search-bar button{
+   border:0;
+   border-radius:50%;
+   width:50px;
+   height:50px;
+   background: #e24c23;
+   cursor: pointer;
+}
